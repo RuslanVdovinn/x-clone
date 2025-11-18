@@ -11,6 +11,6 @@ export const TWEETS: ITweet[] = [
     },
     {
         author: 'Donal Trump',
-        text: "Make America Great Again"
+        text: "Make America Great Againnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn"
     }
 ]
