@@ -1,5 +1,10 @@
-interface Props {}
+import type { Metadata } from "next";
+import ProfileFake from "./ProfileFake";
 
-export default function page({}: Props) {
-    return <div>page</div>
+export const metadata: Metadata = {
+    title: 'ProfikeFake'
+}
+
+export default function page() {
+    return <ProfileFake />
 }

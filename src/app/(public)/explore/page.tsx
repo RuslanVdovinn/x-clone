@@ -1,5 +1,12 @@
-interface Props {}
+import { Suspense } from "react";
+import { Explore } from "./Explore";
 
-export default function page({}: Props) {
-    return <div>page</div>
+interface Props { }
+
+export default function page({ }: Props) {
+    return (
+        <Suspense>
+            <Explore />
+        </Suspense>
+    )
 }
