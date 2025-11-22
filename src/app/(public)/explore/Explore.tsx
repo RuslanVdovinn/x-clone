@@ -10,6 +10,7 @@ export function Explore() {
         <div>
             <h1 className="text-3xl font-bold mb6">
                 Explore {!!tag && `by #${tag}`}
-                </h1>
-        </div>)
+            </h1>
+        </div>
+    )
 }
