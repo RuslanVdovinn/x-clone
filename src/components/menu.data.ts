@@ -17,5 +17,9 @@ export const MENU : IMenuItem[] = [
     {
         href: PAGES.PROFILE_FALE,
         name: 'Profile'
+    },
+    {
+        href: PAGES.SHOP,
+        name: 'Shop'
     }
 ]
