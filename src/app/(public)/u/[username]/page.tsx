@@ -1,7 +1,10 @@
+import type { Metadata } from "next";
 import { Profile } from "./Profile";
 
-interface Props {}
+export const metadata: Metadata = {
+    title: 'Profile'
+}
 
-export default function page({}: Props) {
+export default function page() {
     return <Profile />
 }
